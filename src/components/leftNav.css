@@ -1,0 +1,21 @@
+.left {
+  float: left;
+  width: 200px;
+  height: 300px;
+}
+.left .pro {
+  margin: 50px 0px 0px 30px;
+}
+a {
+  display: block;
+  background-color: aquamarine;
+}
+/* a:hover {
+  background-color: green;
+} */
+a:active {
+  color: #f00;
+}
+a:visited {
+  /* color: #f00; */
+}

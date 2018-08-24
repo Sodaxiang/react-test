@@ -1,0 +1,33 @@
+{
+  "name": "react-20597",
+  "version": "1.0.0",
+  "description": "1. 克隆工程`https://rdc.hand-china.com/gitlab/train-front-end/react-test.git`并切换分支，分支名为工号 \r 2. 初始化npm，命名react-工号 \r 3. 创建目录src，完成要求所需代码\r 4. 建立名为start的npm脚本，能够使用webpack-dev-server打包并启动服务，服务端口号9090\r 5. 提交代码到gitlab",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --history-api-fallback"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://rdc.hand-china.com/gitlab/train-front-end/react-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
